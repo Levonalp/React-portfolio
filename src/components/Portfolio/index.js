@@ -11,7 +11,6 @@ import traveLog from '../../assets/images/traveLog.png'
 
 const Portfolio = () => { 
     const [letterClass, setLetterClass] = useState('text-animate');
-    const [portfolio, setPortfolio] = useState([]);
 
     useEffect(() => {
         const timer = setTimeout(() => {
@@ -39,51 +38,51 @@ const Portfolio = () => {
             />
           </h1>
           <div className="container-fluid d-fluid">
-  <div class="img-container">
+  <div className="img-container">
     <img src={bookStore} alt="bookStore" />
-    <div class="btns">
+    <div className="btns">
       <a href="https://github.com/Levonalp/bookStore">
-        <button class="btn">GitHub</button>
+        <button className="btn">GitHub</button>
       </a>
        </div>
   </div>
-  <div class="img-container">
+  <div className="img-container">
     <img src={traveLog} alt="bookStore" />
-    <div class="btns">
+    <div className="btns">
       <a href="https://github.com/Levonalp/Travel-Log-React">
-        <button class="btn">GitHub</button>
+        <button className="btn">GitHub</button>
       </a>
        </div>
   </div>
-  <div class="img-container">
+  <div className="img-container">
     <img src={notesApp} alt="bookStore" />
-    <div class="btns">
+    <div className="btns">
       <a href="https://github.com/Levonalp/Notepad_api">
-        <button class="btn">GitHub</button>
+        <button className="btn">GitHub</button>
       </a>
        </div>
   </div>
-  <div class="img-container">
+  <div className="img-container">
     <img src={dogShow} alt="bookStore" />
-    <div class="btns">
+    <div className="btns">
       <a href="https://github.com/Levonalp/dog_project4">
-        <button class="btn">GitHub</button>
+        <button className="btn">GitHub</button>
       </a>
        </div>
   </div>
-  <div class="img-container">
+  <div className="img-container">
     <img src={port} alt="bookStore" />
-    <div class="btns">
+    <div className="btns">
       <a href="https://github.com/Levonalp/Portfolio">
-        <button class="btn">GitHub</button>
+        <button className="btn">GitHub</button>
       </a>
        </div>
   </div>
-  <div class="img-container">
+  <div className="img-container">
     <img src={cityBook} alt="bookStore" />
-    <div class="btns">
+    <div className="btns">
       <a href="https://github.com/Levonalp/project-3-backend">
-        <button class="btn">GitHub</button>
+        <button className="btn">GitHub</button>
       </a>
        </div>
   </div>
