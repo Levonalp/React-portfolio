@@ -179,3 +179,47 @@
     border-radius: 50px;
     cursor: pointer;
   }
+
+  @media (max-width: 475px) {
+   
+  .container-fluid {
+  display: flex;
+  flex-wrap: wrap;
+  
+  .img-container {
+    width: 100%;
+    
+    @media (max-width: 475px) {
+      width: auto;
+    }
+    
+    img {
+      width: 100%;
+      height: auto;
+    }
+    
+    .btns {
+      display: flex;
+      justify-content: center;
+      margin-top: 1rem;
+    }
+  }
+}
+.img-container:hover .btn {
+  display: block;
+  cursor: pointer;
+}
+.img-container {
+  position: relative;
+  display: inline-block;
+}
+.btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.img-container:hover .btns {
+  display: flex;
+}
+}
