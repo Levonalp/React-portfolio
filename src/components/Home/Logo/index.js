@@ -1,3 +1,4 @@
+
 import { useEffect, useRef } from 'react'
 import LogoS from '../../../assets/images/logo-s.png'
 import './index.scss'
@@ -9,6 +10,8 @@ const Logo = () => {
 
   useEffect(() => {
 
+    // do something with refs here
+
   }, [])
 
   return (
@@ -19,8 +22,10 @@ const Logo = () => {
         src={LogoS}
         alt="JavaScript,  Developer"
       />
+
+      <img className="outline-logo" ref={outlineLogoRef} src={LogoS} alt="JavaScript, Developer" />  
+
     </div>
   )
 }
-
 export default Logo
