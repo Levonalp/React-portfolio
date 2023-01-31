@@ -8,6 +8,7 @@ import dogShow from '../../assets/images/dogShow.png'
 import port from '../../assets/images/portfolio.png'
 import notesApp from '../../assets/images/notesApp.png'
 import traveLog from '../../assets/images/traveLog.png'
+import Realtor from '../../assets/images/Realtorhelper.png'
 
 const Portfolio = () => { 
     const [letterClass, setLetterClass] = useState('text-animate');
@@ -82,6 +83,14 @@ const Portfolio = () => {
     <img src={cityBook} alt="bookStore" />
     <div className="btns">
       <a href="https://github.com/Levonalp/project-3-backend">
+        <button className="btn">GitHub</button>
+      </a>
+       </div>
+  </div>
+  <div className="img-container">
+    <img src={Realtor} alt="bookStore" />
+    <div className="btns">
+      <a href="https://github.com/Levonalp/Full-crud-app">
         <button className="btn">GitHub</button>
       </a>
        </div>
