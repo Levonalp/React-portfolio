@@ -43,7 +43,7 @@ const Portfolio = () => {
   <div className="img-container">
     <img src={bookStore} alt="bookStore" />
     <div className="btns">
-      <a href="https://github.com/Levonalp/bookStore">
+      <a target="_blank" href="https://github.com/Levonalp/bookStore">
         <button className="btn">GitHub</button>
       </a>
        </div>
@@ -51,7 +51,7 @@ const Portfolio = () => {
   <div className="img-container">
     <img src={traveLog} alt="bookStore" />
     <div className="btns">
-      <a href="https://github.com/Levonalp/Travel-Log-React">
+      <a target="_blank" href="https://github.com/Levonalp/Travel-Log-React">
         <button className="btn">GitHub</button>
       </a>
        </div>
@@ -59,7 +59,7 @@ const Portfolio = () => {
   <div className="img-container">
     <img src={notesApp} alt="bookStore" />
     <div className="btns">
-      <a href="https://github.com/Levonalp/Notepad_api">
+      <a target="_blank" href="https://github.com/Levonalp/Notepad_api">
         <button className="btn">GitHub</button>
       </a>
        </div>
@@ -67,7 +67,7 @@ const Portfolio = () => {
   <div className="img-container">
     <img src={dogShow} alt="bookStore" />
     <div className="btns">
-      <a href="https://github.com/Levonalp/dog_project4">
+      <a target="_blank" href="https://github.com/Levonalp/dog_project4">
         <button className="btn">GitHub</button>
       </a>
        </div>
@@ -75,7 +75,7 @@ const Portfolio = () => {
   <div className="img-container">
     <img src={port} alt="bookStore" />
     <div className="btns">
-      <a href="https://github.com/Levonalp/Portfolio">
+      <a target="_blank" href="https://github.com/Levonalp/Portfolio">
         <button className="btn">GitHub</button>
       </a>
        </div>
@@ -83,7 +83,7 @@ const Portfolio = () => {
   <div className="img-container">
     <img src={cityBook} alt="bookStore" />
     <div className="btns">
-      <a href="https://github.com/Levonalp/project-3-backend">
+      <a target="_blank" href="https://github.com/Levonalp/project-3-backend">
         <button className="btn">GitHub</button>
       </a>
        </div>
@@ -91,7 +91,7 @@ const Portfolio = () => {
   <div className="img-container">
     <img src={Realtor} alt="bookStore" />
     <div className="btns">
-      <a href="https://github.com/Levonalp/Full-crud-app">
+      <a target="_blank" href="https://github.com/Levonalp/Full-crud-app">
         <button className="btn">GitHub</button>
       </a>
        </div>
@@ -99,7 +99,7 @@ const Portfolio = () => {
   <div className="img-container">
     <img src={ReactP} alt="bookStore" />
     <div className="btns">
-      <a href="https://github.com/Levonalp/React-portfolio">
+      <a target="_blank" href="https://github.com/Levonalp/React-portfolio">
         <button className="btn">GitHub</button>
       </a>
        </div>
