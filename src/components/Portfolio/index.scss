@@ -179,6 +179,10 @@
     border-radius: 50px;
     cursor: pointer;
   }
+  .container-fluid {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
   @media (max-width: 475px) {
    
