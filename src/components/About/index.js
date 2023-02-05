@@ -47,7 +47,7 @@ const About = () => {
           <p align="LEFT" size="3X">
           Download Resume
           </p>
-          <a className='res' target="blank" href="https://drive.google.com/file/d/18FFeQZ1homyFYVWJ-XaCLDO9AiyuxmM3/view">
+          <a className='res' target="blank" href="https://drive.google.com/file/d/1UybbyAhzqHOjhMMhD6RKtg5CeI4jMPxU/view?usp=sharing">
             {' '}
             <FontAwesomeIcon icon={faFile} color="#EFD81D" size='3x' padding="5px"/>
          </a>
