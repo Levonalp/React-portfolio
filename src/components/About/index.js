@@ -4,8 +4,8 @@ import {
   faHtml5,
   faJsSquare,
   faReact,
-  faPython, 
-  faGolang
+  faPython,
+  faGolang,
 } from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
@@ -33,24 +33,41 @@ const About = () => {
               idx={15}
             />
           </h1>
-          <p className='abt'>
-          As a full-stack software developer, I am fueled by my passion for solving complex technical problems and finding the most efficient solutions. 
+          <p className="abt">
+            As a full-stack software developer, I am fueled by my passion for
+            solving complex technical problems and finding the most efficient
+            solutions.
           </p>
-          <p className='abt'>
-          My skills in the MERN and PERN stacks are constantly evolving as I strive to implement cutting-edge features. My background in sales and real estate appraising has honed my ability to thrive in fast-paced environments and effectively utilize my skills.
+          <p className="abt">
+            My skills in the MERN and PERN stacks are constantly evolving as I
+            strive to implement cutting-edge features. My background in sales
+            and real estate appraising has honed my ability to thrive in
+            fast-paced environments and effectively utilize my skills.
           </p>
-          <p className='abt'>
-         
-           I am on a mission to find roles where I can collaborate with others to research and develop front-end and back-end products that truly exceed customer expectations. My ultimate goal is to make a meaningful impact through our collective efforts and not just to complete tasks.
+          <p className="abt">
+            I am on a mission to find roles where I can collaborate with others
+            to research and develop front-end and back-end products that truly
+            exceed customer expectations. My ultimate goal is to make a
+            meaningful impact through our collective efforts and not just to
+            complete tasks.
           </p>
           <br />
           <p align="LEFT" size="3X">
-          Download Resume
+            Download Resume
           </p>
-          <a className='res' target="blank" href="https://drive.google.com/file/d/1W1xF9yoBUdyHeZIKdtAykChazqcDKdeZ/view?usp=sharing">
+          <a
+            className="res"
+            target="blank"
+            href="https://drive.google.com/file/d/1W1xF9yoBUdyHeZIKdtAykChazqcDKdeZ/view?usp=sharing"
+          >
             {' '}
-            <FontAwesomeIcon icon={faFile} color="#EFD81D" size='3x' padding="5px"/>
-         </a>
+            <FontAwesomeIcon
+              icon={faFile}
+              color="#EFD81D"
+              size="3x"
+              padding="5px"
+            />
+          </a>
         </div>
 
         <div className="stage-cube-cont">
