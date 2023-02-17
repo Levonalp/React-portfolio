@@ -40,10 +40,10 @@ const Portfolio = () => {
           <div className="img-container">
             <img src={bookStore} alt="bookStore" />
             <div className="btns">
-              <a href="https://github.com/Levonalp/bookStore">
+              <a href="https://github.com/Levonalp/bookStore" target="_blank">
                 <button className="btn">GitHub</button>
               </a>
-              <a href="https://react-bookstore.herokuapp.com/">
+              <a href="https://react-bookstore.herokuapp.com/" target="_blank">
                 <button className="btn">Demo</button>
               </a>
             </div>
@@ -51,10 +51,16 @@ const Portfolio = () => {
           <div className="img-container">
             <img src={traveLog} alt="bookStore" />
             <div className="btns">
-              <a href="https://github.com/Levonalp/Travel-Log-React">
+              <a
+                href="https://github.com/Levonalp/Travel-Log-React"
+                target="_blank"
+              >
                 <button className="btn">GitHub</button>
               </a>
-              <a href="https://www.loom.com/share/2b7a8c8eaf884a08bcd225c79e78ddde">
+              <a
+                href="https://www.loom.com/share/2b7a8c8eaf884a08bcd225c79e78ddde"
+                target="_blank"
+              >
                 <button className="btn">Demo</button>
               </a>
             </div>
@@ -63,10 +69,13 @@ const Portfolio = () => {
           <div className="img-container">
             <img src={notesApp} alt="bookStore" />
             <div className="btns">
-              <a href="https://github.com/Levonalp/Notepad_api">
+              <a href="https://github.com/Levonalp/Notepad_api" target="_blank">
                 <button className="btn">GitHub</button>
               </a>
-              <a href="https://blooming-oasis-43438.herokuapp.com/">
+              <a
+                href="https://blooming-oasis-43438.herokuapp.com/"
+                target="_blank"
+              >
                 <button className="btn">Demo</button>
               </a>
             </div>
@@ -74,10 +83,13 @@ const Portfolio = () => {
           <div className="img-container">
             <img src={dogShow} alt="bookStore" />
             <div className="btns">
-              <a href="https://github.com/Levonalp/dog_project4">
+              <a
+                href="https://github.com/Levonalp/dog_project4"
+                target="_blank"
+              >
                 <button className="btn">GitHub</button>
               </a>
-              <a href="https://urldogshowback.herokuapp.com/">
+              <a href="https://urldogshowback.herokuapp.com/" target="_blank">
                 <button className="btn">Demo</button>
               </a>
             </div>
@@ -85,10 +97,13 @@ const Portfolio = () => {
           <div className="img-container">
             <img src={port} alt="bookStore" />
             <div className="btns">
-              <a href="https://github.com/Levonalp/Portfolio">
+              <a href="https://github.com/Levonalp/Portfolio" target="_blank">
                 <button className="btn">GitHub</button>
               </a>
-              <a href="https://6369af711cf693453eb2e670--transcendent-fenglisu-a3a9fb.netlify.app/">
+              <a
+                href="https://6369af711cf693453eb2e670--transcendent-fenglisu-a3a9fb.netlify.app/"
+                target="_blank"
+              >
                 <button className="btn">Demo</button>
               </a>
             </div>
@@ -96,10 +111,16 @@ const Portfolio = () => {
           <div className="img-container">
             <img src={cityBook} alt="bookStore" />
             <div className="btns">
-              <a href="https://github.com/Levonalp/project-3-backend">
+              <a
+                href="https://github.com/Levonalp/project-3-backend"
+                target="_blank"
+              >
                 <button className="btn">GitHub</button>
               </a>
-              <a href="https://twitter-clone-frontend123.herokuapp.com/#">
+              <a
+                href="https://twitter-clone-frontend123.herokuapp.com/#"
+                target="_blank"
+              >
                 <button className="btn">Demo</button>
               </a>
             </div>
@@ -107,10 +128,16 @@ const Portfolio = () => {
           <div className="img-container">
             <img src={Realtor} alt="bookStore" />
             <div className="btns">
-              <a href="https://github.com/Levonalp/Full-crud-app">
+              <a
+                href="https://github.com/Levonalp/Full-crud-app"
+                target="_blank"
+              >
                 <button className="btn">GitHub</button>
               </a>
-              <a href="https://www.loom.com/share/67bac857a0d64787ac48e5788f9e3264">
+              <a
+                href="https://www.loom.com/share/67bac857a0d64787ac48e5788f9e3264"
+                target="_blank"
+              >
                 <button className="btn">Demo</button>
               </a>
             </div>
@@ -118,10 +145,13 @@ const Portfolio = () => {
           <div className="img-container">
             <img src={ReactP} alt="bookStore" />
             <div className="btns">
-              <a href="https://github.com/Levonalp/React-portfolio">
+              <a
+                href="https://github.com/Levonalp/React-portfolio"
+                target="_blank"
+              >
                 <button className="btn">GitHub</button>
               </a>
-              <a href="https://levonalshabi.netlify.app/">
+              <a href="https://levonalshabi.netlify.app/" target="_blank">
                 <button className="btn">Demo</button>
               </a>
             </div>
