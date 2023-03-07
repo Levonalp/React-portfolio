@@ -1,6 +1,6 @@
-
 import { useEffect, useRef } from 'react'
 import LogoS from '../../../assets/images/logo-s.png'
+import Logo1 from '../../../assets/images/1.jpg'
 import './index.scss'
 
 const Logo = () => {
@@ -9,22 +9,15 @@ const Logo = () => {
   const solidLogoRef = useRef()
 
   useEffect(() => {
-
     // do something with refs here
-
   }, [])
 
   return (
     <div className="logo-container" ref={bgRef}>
       <img
-        className="solid-logo"
-        ref={solidLogoRef}
-        src={LogoS}
+        src="https://photos.app.goo.gl/C9puamnWGtvg2hPp8"
         alt="JavaScript,  Developer"
       />
-
-      <img className="outline-logo" ref={outlineLogoRef} src={LogoS} alt="JavaScript, Developer" />  
-
     </div>
   )
 }
