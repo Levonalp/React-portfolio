@@ -10,6 +10,7 @@ import notesApp from '../../assets/images/notesApp.png'
 import traveLog from '../../assets/images/traveLog.png'
 import Realtor from '../../assets/images/Realtorhelper.png'
 import ReactP from '../../assets/images/React.png'
+import SupportDesk from '../../assets/images/SupportDesk.png'
 
 const Portfolio = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -37,6 +38,25 @@ const Portfolio = () => {
           />
         </h1>
         <div className="container-fluid d-fluid">
+          <div className="img-container">
+            <img src={SupportDesk} alt="SupportDesk" />
+            <div className="btns">
+              <a
+                href="https://github.com/Levonalp/supportDesk"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="btn">GitHub</button>
+              </a>
+              <a
+                href="https://lasupportdesk.onrender.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="btn">Demo</button>
+              </a>
+            </div>
+          </div>
           <div className="img-container">
             <img src={bookStore} alt="bookStore" />
             <div className="btns">
