@@ -24,7 +24,7 @@
     animation-delay: #{$i / 10}s;
   }
 }
-
+// background color for text
 @media screen and (max-width: 500px) {
   .text-animate {
     display: block;
