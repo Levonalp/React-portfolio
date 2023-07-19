@@ -53,22 +53,6 @@ const About = () => {
             complete tasks.
           </p>
           <br />
-          <p align="LEFT" size="3X">
-            Download Resume
-          </p>
-          <a
-            className="res"
-            target="blank"
-            href="https://drive.google.com/file/d/1W1xF9yoBUdyHeZIKdtAykChazqcDKdeZ/view?usp=sharing"
-          >
-            {' '}
-            <FontAwesomeIcon
-              icon={faFile}
-              color="#EFD81D"
-              size="3x"
-              padding="5px"
-            />
-          </a>
         </div>
 
         <div>
