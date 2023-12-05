@@ -157,7 +157,7 @@ const Portfolio = () => {
             <img src={cityBook} alt="bookStore" />
             <div className="btns">
               <a
-                href="https://github.com/Levonalp/project-3-backend"
+                href="https://github.com/Levonalp/MernStack-Front"
                 target="_blank"
                 rel="noopener noreferrer"
               >
