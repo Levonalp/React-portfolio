@@ -119,14 +119,14 @@ const Portfolio = () => {
             <img src={dogShow} alt="bookStore" />
             <div className="btns">
               <a
-                href="https://github.com/Levonalp/dog_project4"
+                href="https://github.com/Levonalp/DjangoSqlreact---front-end"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <button className="btn">GitHub</button>
               </a>
               <a
-                href="https://urldogshowback.herokuapp.com/"
+                href="https://djangopsqlreact.onrender.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -164,7 +164,7 @@ const Portfolio = () => {
                 <button className="btn">GitHub</button>
               </a>
               <a
-                href="https://twitter-clone-frontend123.herokuapp.com/#"
+                href="https://mernstack-front-99yd.onrender.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
